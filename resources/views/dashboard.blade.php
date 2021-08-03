@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <p>Demo.</p>
+    <p>Demo Deploy en Heroku.</p>
 @stop
 
 @section('css')
