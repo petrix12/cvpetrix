@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TabController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [TabController::class, 'welcome'])->name('welcome');
+
+Route::get('portafolio', [TabController::class, 'portafolio'])->name('portafolio');
+
+Route::get('servicios', [TabController::class, 'servicios'])->name('servicios');
+
+Route::get('formacion', [TabController::class, 'formacion'])->name('formacion');
+
+Route::get('experiencia', [TabController::class, 'experiencia'])->name('experiencia');
+
+Route::get('contactame', [TabController::class, 'contactame'])->name('contactame');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
