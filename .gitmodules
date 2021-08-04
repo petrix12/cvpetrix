@@ -1,0 +1,3 @@
+[submodule "cvpetrix"]
+	path = cvpetrix
+	url = https://github.com/petrix12/cvpetrix.git
