@@ -12,7 +12,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon fa fa-bars"></span>
 				</button>
-                @include('layouts\partes_cv\menu')
+                @include('layouts.partes_cv.menu')
 			</div>
 		</nav>
 	</section>
@@ -370,8 +370,8 @@
 		<div class="form-12-content">
 			<div class="container">
 				<div class="grid grid-column-2 ">
-                    @include('layouts\partes_cv\experiencia')
-                    @include('layouts\partes_cv\certificados')
+                    @include('layouts.partes_cv.experiencia')
+                    @include('layouts.partes_cv.certificados')
 				</div>
 			</div>
 		</div>
@@ -494,6 +494,6 @@
 		</div>
 		<!--//customers -->
 	</section>
-    @include('layouts\partes_cv\pie')
+    @include('layouts.partes_cv.pie')
 </body>
 </html>
