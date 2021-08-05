@@ -732,9 +732,9 @@
 	</section>
 
 	<hr />
-    @include('partes_cv\cursos_cortos')
+    @include('partes_cv.cursos_cortos')
 	<hr />
-    @include('partes_cv\cursos_no_certificados')
+    @include('partes_cv.cursos_no_certificados')
 	<hr />
 
 	<section class="w3l-subscribe" id="subscribe">
