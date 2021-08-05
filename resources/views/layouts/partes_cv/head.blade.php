@@ -12,11 +12,13 @@
 <meta data-react-helmet="true" property="og:title" content="Soluciones++ | Ing. Pedro Bazó | Desarrollo de Aplicaciones Web."/>
 <meta data-react-helmet="true" property="og:description" content="Automatice sus informes y documentos office."/>
 
-<meta data-react-helmet="true" property="og:image" content="{{ asset('assets/images/MPSmall.png') }}" />
+{{-- <meta data-react-helmet="true" property="og:image" content="{{ asset('assets/images/MPSmall.png') }}" /> --}}
+<meta data-react-helmet="true" property="og:image" content="https://1.bp.blogspot.com/-A_Mzi1F6U78/YQs9RU_ArUI/AAAAAAAAmsE/9pm5WqoLEA82JKv5-EIwEC70mPIgtHefQCLcBGAsYHQ/s459/MPSmall.jpg" />
+
 <meta data-react-helmet="true" property="twitter:title" content="Soluciones++ | Ing. Pedro Bazó | Desarrollo de Aplicaciones Web." />
 <meta data-react-helmet="true" property="twitter:description" content="Automatice sus informes y documentos office." />
-<meta data-react-helmet="true" property="twitter:image:src" content="{{ asset('assets/images/MPSmall.png') }}" />
-<meta data-react-helmet="true" property="twitter:image" content="{{ asset('assets/images/MPSmall.png') }}" />
+<meta data-react-helmet="true" property="twitter:image:src" content="https://1.bp.blogspot.com/-A_Mzi1F6U78/YQs9RU_ArUI/AAAAAAAAmsE/9pm5WqoLEA82JKv5-EIwEC70mPIgtHefQCLcBGAsYHQ/s459/MPSmall.jpg" />
+<meta data-react-helmet="true" property="twitter:image" content="https://1.bp.blogspot.com/-A_Mzi1F6U78/YQs9RU_ArUI/AAAAAAAAmsE/9pm5WqoLEA82JKv5-EIwEC70mPIgtHefQCLcBGAsYHQ/s459/MPSmall.jpg" />
 <meta data-react-helmet="true" property="twitter:card" content="summary" />
 <meta data-react-helmet="true" name="robots" content="noindex, nofollow" />
 <!-- web fonts -->
