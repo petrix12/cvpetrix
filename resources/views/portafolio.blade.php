@@ -23,12 +23,12 @@
 	<section class="w3l-about-breadcrum">
 		<div class="breadcrum-bg">
 			<div class="container py-5">
-				<p><a href="{{ route('welcome') }}">Inicio</a> &nbsp; / &nbsp; Portafolio</p>
+				<p><a href="/">Inicio</a> &nbsp; / &nbsp; Portafolio</p>
 			</div>
 		</div>
 	</section>
 
-    <h1>PUNTO PENDIENTE</h1>
+    <img src="{{ asset('assets\images\en_construccion.jpg') }}" alt="Página en construcción">
 
 	@include('layouts.partes_cv.pie')
 

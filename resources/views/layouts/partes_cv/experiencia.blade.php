@@ -21,7 +21,7 @@
         </p>
     </div>
     <div class="experience-top">
-        <h5>MAY 2016 - ACTUAL</h5>
+        <h5>MAY 2016 - JUL 2021</h5>
         <h4>Analista Mayor de Presupuesto</h4>
         <p class="my-3 text-white">
             <img src="assets/images/logos/pdvsa.png" width="25" height="25" alt="Logo PDVSA">
