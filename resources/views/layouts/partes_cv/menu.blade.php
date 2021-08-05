@@ -8,7 +8,7 @@
 
         @if (!(Route::current()->getName() == 'portafolio'))
         <li class="nav-item">
-            <a class="nav-link" href="portafolio.php"><span class="color33">Portafolio</span></a>
+            <a class="nav-link" href="portafolio"><span class="color33">Portafolio</span></a>
         </li>
         @endif
 
