@@ -2,8 +2,6 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <title>Soluciones++: CV Ing. Pedro Bazó | Programador de Aplicaciones y Desarrollador Web</title>
-	<link rel="stylesheet" href="assets/css/style-starter.css">
-	<link rel="stylesheet" href="assets/css/mis_estilos.css">
     @include('layouts.partes_cv.head')
 </head>
 <body>
