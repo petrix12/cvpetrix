@@ -12,3 +12,15 @@
 .color11 {
     color: rgb(39, 80, 116);
 }
+
+.titulo-portafolio{
+    height: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-portafolio{
+    height: 150px;
+    text-align: justify;
+    font-size: 90%;
+}

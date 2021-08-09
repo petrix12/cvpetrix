@@ -3784,4 +3784,10 @@
 	+ Crear el modelo con migración con todo:
 		- $ php artisan make:model Model -a
 
+### Pruebas git
+$ git config user.name "Pedro Bazó"
+$ git config user.email "bazo.pedro@gmail.com"
+
+$ git config user.name "EstrellitaEster"
+$ git config user.email "rebeca.e.bazo.r@gmail.com"
 

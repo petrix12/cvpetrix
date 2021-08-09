@@ -26,6 +26,8 @@ Route::get('experiencia', [TabController::class, 'experiencia'])->name('experien
 
 Route::get('contactame', [TabController::class, 'contactame'])->name('contactame');
 
+Route::get('en_construccion', [TabController::class, 'en_construccion'])->name('en_construccion');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

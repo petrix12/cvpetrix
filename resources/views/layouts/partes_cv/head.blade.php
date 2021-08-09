@@ -26,6 +26,7 @@
 <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
 <!-- Template CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 {{-- <link rel="stylesheet" href="{{ asset('assets/css/style-starter.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/mis_estilos.css') }}"> --}}
 <link rel="stylesheet" href="assets/css/style-starter.css">

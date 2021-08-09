@@ -29,4 +29,8 @@ class TabController extends Controller
     public function contactame(){
         return view('contactame');
     }
+    
+    public function en_construccion(){
+        return view('en_construccion');
+    }
 }
