@@ -94,10 +94,35 @@
 						</div>
 					</div>
 				</div>
+				{{-- Página Facebook Soluciones Office --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\pag_facebook.png') }}" alt="Post Blogger Soluciones++" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.facebook.com/solplusplus" target="_blank">
+									<strong>
+										Soluciones Office: Creación de una página web con Facebook
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Desarrollo de una página web con Facebook, titulado Soluciones Office, 
+								que trata principalmente sobre temas relacionados con el 
+								desarrollo web y el desarrollo aplicaciones aplicaciones 
+								informáticas en general.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/facebook.png') }}" width="50" height="50" alt="Logo Facebook" title="Facebook">
+								<small class="text-muted"><strong>2020</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Blogger Herramientas y Soluciones Office --}}
 				<div class="col">
 					<div class="card shadow-sm">
-						<img src="{{ asset('assets\images\portafolio\en_construccion.png') }}" alt="Post Blogger Herramientas y Soluciones Office" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<img src="{{ asset('assets\images\portafolio\hysoffice.png') }}" alt="Post Blogger Herramientas y Soluciones Office" class="bd-placeholder-img card-img-top" width="100%" height="225">
 						<div class="card-body">
 							<div class="titulo-portafolio">
 								<a href="https://toolssolucionesoffice.blogspot.com" target="_blank">
@@ -115,6 +140,81 @@
 								<img src="{{ asset('assets/images/logos/blogger.png') }}" width="50" height="50" alt="Logo Blogger" title="Blogger">
 								<img src="{{ asset('assets/images/logos/html5.png') }}" width="50" height="50" alt="Logo HTML" title="HTML">
 								<small class="text-muted"><strong>2019</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Automatización PDVSA CyS --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\pdvsa_cys.png') }}" alt="Post Automatización de Guardias STM" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ route('en_construccion') }}" target="_blank">
+									<strong>
+										Automatización reportes PDVSA Comercio y Suministro
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Automatización de reportes de la Gerencia de Administración y Finanzas de 
+								PDVSA Comercio y Suministo con Microsoft Excel y Visual Basic para Aplicaciones.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/excel.png') }}" width="50" height="50" alt="Logo Microsoft Excel" title="Microsoft Excel">
+								<img src="{{ asset('assets/images/logos/vba.png') }}" width="50" height="50" alt="Logo VBA" title="VBA">
+								<small class="text-muted"><strong>2017</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Automatización Guardias STM --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\guardia_stm.png') }}" alt="Post Automatización de Guardias STM" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ route('en_construccion') }}" target="_blank">
+									<strong>
+										Automatización reportes PDVSA Planificación Distrito San Tomé
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Automatización de reportes de guardias de la Superintendencia de
+								Planificación, Presupuesto y Gestión del Distrito San Tomé con
+								Microsoft Excel y Visual Basic para Aplicaciones.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/excel.png') }}" width="50" height="50" alt="Logo Microsoft Excel" title="Microsoft Excel">
+								<img src="{{ asset('assets/images/logos/vba.png') }}" width="50" height="50" alt="Logo VBA" title="VBA">
+								<small class="text-muted"><strong>2015</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Automatización Memorias Descriptivas --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\memorias.png') }}" alt="Post Automatización de Memorias Descriptivas GIPS" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ route('en_construccion') }}" target="_blank">
+									<strong>
+										Automatización memorias descriptivas de líneas de flujo
+										y de transferencia
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Automatización de memorias descriptivas de líneas de flujo
+								y de transferencia del campo Dacion de PDVSA Distrito San Tomé
+								con Microsoft Excel y Visual Basic para Aplicaciones.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/excel.png') }}" width="50" height="50" alt="Logo Microsoft Excel" title="Microsoft Excel">
+								<img src="{{ asset('assets/images/logos/vba.png') }}" width="50" height="50" alt="Logo VBA" title="VBA">
+								<small class="text-muted"><strong>2007</strong></small>
 							</div>
 						</div>
 					</div>
