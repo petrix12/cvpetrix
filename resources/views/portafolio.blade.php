@@ -23,7 +23,7 @@
 	<section class="w3l-about-breadcrum">
 		<div class="breadcrum-bg">
 			<div class="container py-5">
-				<p><a href="/">Inicio</a> &nbsp; / &nbsp; Portafolio</p>
+				<p><a href="/">Inicio</a> &nbsp; / <strong>&nbsp; Portafolio</p></strong>
 			</div>
 		</div>
 	</section>
@@ -144,6 +144,32 @@
 						</div>
 					</div>
 				</div>
+				{{-- Edición del libro Color Esperanza --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\esperanza.png') }}" alt="Post Edición del libro Color Esperanza" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ asset('descargas/portafolio/Color Esperanza.pdf') }}" target="_blank">
+									<strong>
+										Edición y revisión de redacción del libro Color Esperanza
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Edición y redacción del libro Color Esperanza escrito por Isabel Bazó,
+								en este proyecto se editó el libro con Microsoft Word, la caratula se 
+								trabajó en Microsoft PowerPoint, y finalmente se ensambló con Adobe Acrobat.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/word.png') }}" width="50" height="50" alt="Logo Microsoft Word" title="Microsoft Word">
+								<img src="{{ asset('assets/images/logos/powerpoint.png') }}" width="50" height="50" alt="Logo Microsoft PowerPoint" title="Microsoft PowerPoint">
+								<img src="{{ asset('assets/images/logos/pdf.png') }}" width="50" height="50" alt="Logo Adobe Acrobat" title="Adobe Acrobat">
+								<small class="text-muted"><strong>2019</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Automatización PDVSA CyS --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -193,6 +219,32 @@
 						</div>
 					</div>
 				</div>
+				{{-- Video Sistema Gestión de la Calidad GIPS --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\video_gips.png') }}" alt="Post Video Sistema Gestión de la Calidad GIPS" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.youtube.com/watch?v=Bm49wbe4vdY" target="_blank">
+									<strong>
+										Edición y producción de un video sobre gestión de la calidad
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Edición y producción de un mini documental sobre la implementación de un sistema de 
+								gestión de la calidad en la Gerencia de Infraestructura y Procesos de Superficie
+								de PDVSA San Tomé, desarrollado en Adobe Premiere, After Effects y Photoshop.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/premiere.png') }}" width="50" height="50" alt="Logo Adobe Premiere" title="Adobe Premiere">
+								<img src="{{ asset('assets/images/logos/after_effects.png') }}" width="50" height="50" alt="Logo Adobe After Effects" title="Adobe After Effects">
+								<img src="{{ asset('assets/images/logos/photoshop.png') }}" width="50" height="50" alt="Logo Adobe Photoshop" title="Adobe Photoshop">
+								<small class="text-muted"><strong>2011</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Automatización Memorias Descriptivas --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -225,7 +277,7 @@
 						<img src="{{ asset('assets\images\portafolio\tesis.png') }}" alt="Poster tesis" class="bd-placeholder-img card-img-top" width="100%" height="225">
 						<div class="card-body">
 							<div class="titulo-portafolio">
-								<a href="{{ route('en_construccion') }}">
+								<a href="{{ asset('descargas/portafolio/tesis_ing.zip') }}" target="_blank">
 									<strong>
 										Aplicación para el ajuste de datos experimentales con modelos no lineales
 									</strong>

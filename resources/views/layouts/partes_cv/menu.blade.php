@@ -1,10 +1,10 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-        @if (!(Route::current()->getName() == 'welcome'))
+        {{-- @if (!(Route::current()->getName() == 'welcome'))
         <li class="nav-item">
             <a class="nav-link" href="/"><span class="color33">Inicio</span></a>
         </li>
-        @endif
+        @endif --}}
 
         @if (!(Route::current()->getName() == 'portafolio'))
         <li class="nav-item">

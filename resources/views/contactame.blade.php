@@ -24,7 +24,7 @@
     <section class="w3l-about-breadcrum">
         <div class="breadcrum-bg">
             <div class="container py-5">
-                <p><a href="/">Inicio</a> &nbsp; / &nbsp; Contáctame</p>
+                <p><a href="/">Inicio</a> &nbsp; / <strong>&nbsp; Contáctame</p></strong>
             </div>
         </div>
     </section>
