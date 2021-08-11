@@ -245,6 +245,35 @@
 						</div>
 					</div>
 				</div>
+				{{-- Video Gerencia GPS PDVSA San Tomé --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\gps.png') }}" alt="Post Video Sistema Gestión de la Calidad GIPS" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.youtube.com/watch?v=T4K_YjPMG2s" target="_blank">
+									<strong>
+										Animación 3D sobre actividades de la Gcia. Procesos de 
+										Superficie PDVSA San Tomé
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Video sobre las actividades de la Gerencia de Procesos de Superficie PDVSA San Tomé, 
+								el cual desarrollé y edité con mi compañero Félix Santaella por el año 2009. 
+								Pido disculpa por la política incluida, pero eso escapaba de mis manos. 
+								Espero que les guste.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/3dsmax.png') }}" width="50" height="50" alt="Logo 3DS Max" title="3DS Max">
+								<img src="{{ asset('assets/images/logos/premiere.png') }}" width="50" height="50" alt="Logo Adobe Premiere" title="Adobe Premiere">
+								<img src="{{ asset('assets/images/logos/after_effects.png') }}" width="50" height="50" alt="Logo Adobe After Effects" title="Adobe After Effects">
+								<img src="{{ asset('assets/images/logos/photoshop.png') }}" width="50" height="50" alt="Logo Adobe Photoshop" title="Adobe Photoshop">
+								<small class="text-muted"><strong>2009</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Automatización Memorias Descriptivas --}}
 				<div class="col">
 					<div class="card shadow-sm">
