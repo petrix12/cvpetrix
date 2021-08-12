@@ -22,7 +22,7 @@
 <meta data-react-helmet="true" property="twitter:card" content="summary" />
 <meta data-react-helmet="true" name="robots" content="noindex, nofollow" />
 <!-- web fonts -->
-<link href="{{ asset('favicon.ico') }}" rel='icon' type='image/x-icon' />
+<link href="favicon.ico" rel='icon' type='image/x-icon' />
 <link href="//fonts.googleapis.com/css?family=Nunito:400,600,700,800,900&display=swap" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
 <!-- Template CSS -->
