@@ -253,7 +253,7 @@
 							<div class="titulo-portafolio">
 								<a href="https://www.youtube.com/watch?v=T4K_YjPMG2s" target="_blank">
 									<strong>
-										Animación 3D sobre actividades de la Gcia. Procesos de 
+										Animación 3D actividades de la Gcia. Procesos de 
 										Superficie PDVSA San Tomé
 									</strong>
 								</a>
@@ -270,6 +270,33 @@
 								<img src="{{ asset('assets/images/logos/after_effects.png') }}" width="50" height="50" alt="Logo Adobe After Effects" title="Adobe After Effects">
 								<img src="{{ asset('assets/images/logos/photoshop.png') }}" width="50" height="50" alt="Logo Adobe Photoshop" title="Adobe Photoshop">
 								<small class="text-muted"><strong>2009</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Video Navideño Infraestructura Dacion PDVSA San Tomé --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\navidad2007.png') }}" alt="Post Video Navideño Infraestructura Dacion PDVSA San Tomé" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.youtube.com/watch?v=tqk6xrtbNdY" target="_blank">
+									<strong>
+										Animación 3D video navideño Infraestructura Dacion
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Video navideño de la Superintendencia de Infraestructura Dacion PDVSA San Tomé, 
+								el cual desarrollé y edité en diciembre del año 2007 apoyandome en los programas
+								de la Suite de Adobe Creative.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/3dsmax.png') }}" width="50" height="50" alt="Logo 3DS Max" title="3DS Max">
+								<img src="{{ asset('assets/images/logos/premiere.png') }}" width="50" height="50" alt="Logo Adobe Premiere" title="Adobe Premiere">
+								<img src="{{ asset('assets/images/logos/after_effects.png') }}" width="50" height="50" alt="Logo Adobe After Effects" title="Adobe After Effects">
+								<img src="{{ asset('assets/images/logos/photoshop.png') }}" width="50" height="50" alt="Logo Adobe Photoshop" title="Adobe Photoshop">
+								<small class="text-muted"><strong>2007</strong></small>
 							</div>
 						</div>
 					</div>
