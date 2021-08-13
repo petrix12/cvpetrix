@@ -274,6 +274,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- Video Templo Media Legua --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\media_legua.png') }}" alt="Post Video Templo Media Legua" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.youtube.com/watch?v=lhEiIR0jjq4" target="_blank">
+									<strong>
+										Animación 3D presentación del Templo de Media Legua
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Animación 3D para la recaudación de fondos para la construcción de la
+								Iglesia San Juan María Vianney en Media Legua. Para el desarrollo de 
+								esta animación se utilizó principalmente AutoCAD, 3DS Max y la Suite de Adobe Creative.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/3dsmax.png') }}" width="50" height="50" alt="Logo 3DS Max" title="3DS Max">
+								<img src="{{ asset('assets/images/logos/premiere.png') }}" width="50" height="50" alt="Logo Adobe Premiere" title="Adobe Premiere">
+								<img src="{{ asset('assets/images/logos/photoshop.png') }}" width="50" height="50" alt="Logo Adobe Photoshop" title="Adobe Photoshop">
+								<img src="{{ asset('assets/images/logos/autocad.png') }}" width="50" height="50" alt="Logo AutoCAD" title="AutoCAD">
+								<small class="text-muted"><strong>2009</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Video Navideño Infraestructura Dacion PDVSA San Tomé --}}
 				<div class="col">
 					<div class="card shadow-sm">
