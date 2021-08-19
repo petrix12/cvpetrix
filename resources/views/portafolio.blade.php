@@ -68,6 +68,62 @@
 						</div>
 					</div>
 				</div>
+				{{-- CV Online --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\cvonline.png') }}" alt="Post Curriculum Vitae Online" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ route('en_construccion') }}">
+									<strong>
+										Creación de un Curriculum Vitae desarrollado en Laravel 8
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de un Curriculum Vitae Online personalizado y administrable,
+								desarrollado en Laravel 8, alojado en Heroku y con deploy automático
+								desde GitHub.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/heroku.png') }}" width="50" height="50" alt="Logo Heroku" title="Heroku">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- App Sefar --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\app_sefar.png') }}" alt="Post App Sefar Universal" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ route('en_construccion') }}">
+									<strong>
+										Creación de una plataforma de información genealógica
+										desarrollado en Laravel 8
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de una plataforma para administrar la carga 
+								de información genealógica de la empresa Sefar Universal, 
+								desarrollado en Laravel 8 con Jetstream y Livewire. Alojada en 
+								GoDaddy.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/tailwindcss.png') }}" width="50" height="50" alt="Logo Tailwind CSS" title="Tailwind CSS">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<img src="{{ asset('assets/images/logos/godaddy.png') }}" width="50" height="50" alt="Logo GoDaddy" title="GoDaddy">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Blogger Soluciones++ --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -89,6 +145,34 @@
 							<div class="d-flex justify-content-between align-items-center">
 								<img src="{{ asset('assets/images/logos/blogger.png') }}" width="50" height="50" alt="Logo Blogger" title="Blogger">
 								<img src="{{ asset('assets/images/logos/html5.png') }}" width="50" height="50" alt="Logo HTML" title="HTML">
+								<small class="text-muted"><strong>2020</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Subir multiples archivos con Laravel --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\subir_archivos.png') }}" alt="Post Subir Multiples Archivos con Laravel" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://solucionespp-file.herokuapp.com" target="_blank">
+									<strong>
+										Subir archivos a la red con Laravel y almacenar
+										sus datos en MySQL
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Desarrollo de una aplicación en Laravel para subir multiples archivos
+								al sitio en donde se encuentra alojado el proyecto. Con este programa no 
+								solo se pretende subir multiples archivos, sino llevar un control de estos 
+								en una base de datos MySQL.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/mysql.png') }}" width="50" height="50" alt="Logo MySQL" title="MySQL">
+								<img src="{{ asset('assets/images/logos/heroku.png') }}" width="50" height="50" alt="Logo Heroku" title="Heroku">
 								<small class="text-muted"><strong>2020</strong></small>
 							</div>
 						</div>

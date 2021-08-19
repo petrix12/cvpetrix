@@ -27,7 +27,7 @@
 			</div>
 		</div>
 	</section>
-	<div class="container">
+	<div class="container mb-4">
 		<div class="heading text-center mx-auto py-4">
 			<h3 class="head">Sitio en construcción</h3>
 			<p class="my-3 head">
