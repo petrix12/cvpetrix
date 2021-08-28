@@ -463,6 +463,30 @@
 						</div>
 					</div>
 				</div>
+				{{-- Relato sobre la Tragedia de Vargas de 1999 --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\tragedia99.png') }}" alt="Poster tragedia de Vargas 1999" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://petrix12.github.io/tragedia99" target="_blank">
+									<strong>
+										Relato sobre la tragedia de Vargas del 15 de diciembre de 1999
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Escrito relatado en modo cronológico sobre mis vivencias durante la tragedia de Vargas 
+								del 15 de diciembre de 1999. Este escrito se realizó a pocos días de lo ocurrido para 
+								evitar olvidar detalles que luego se podrían borrar con el tiempo.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/word.png') }}" width="50" height="50" alt="Logo Microsoft Word" title="Microsoft Word">
+								<small class="text-muted"><strong>1999</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Resolución de problemas de lógica de programación --}}
 				<div class="col">
 					<div class="card shadow-sm">
