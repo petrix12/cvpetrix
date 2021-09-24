@@ -68,6 +68,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- API RESTful Laravel 8 --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\apirestful.png') }}" alt="Post Creación de una API RESTful con Laravel 8" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://github.com/petrix12/apirestful_laravel8/blob/main/apuntes.md" target="_blank">
+									<strong>
+										Creación de una API RESTful en Laravel 8
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								En este proyecto se creó una API RESTful en Laravel 8, con un sistema de autenticación
+								generado por Laravel Passport, un sistema de roles y permisos generados por Laravel Permission,
+								también se utilizó Vue Js y Axios.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/vuejs.png') }}" width="50" height="50" alt="Logo Vue Js" title="Vue Js">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- CV Online --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -89,6 +116,59 @@
 								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
 								<img src="{{ asset('assets/images/logos/heroku.png') }}" width="50" height="50" alt="Logo Heroku" title="Heroku">
 								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Proyecto Laravel en AWS --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\aws_laravel.png') }}" alt="Post Alojar proyecto Laravel en AWS" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://github.com/petrix12/awsejemplo/blob/main/apuntes.md" target="_blank">
+									<strong>
+										Instalación de un proyecto Laravel en AWS
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Instalación de un proyecto Laravel 8 en Amazon Web Services, en una instancia de máquina virtual EC2 y 
+								un servicio RDS para instalación de una instancia de base de datos MariaDB.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/aws.png') }}" width="50" height="50" alt="Logo AWS" title="AWS">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- Plataforma de cursos en Laravel --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\cursos_laravel.png') }}" alt="Post Plataforma de cursos en Laravel" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://github.com/petrix12/PlataformaDeCursosLaravel/blob/main/000%20Soportes/apuntes.md" target="_blank">
+									<strong>
+										Creación de una plataforma de cursos online con Laravel 8
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de una aplicación en Laravel Jetstream, que permite adiministrar
+								una plataforma de cursos online, en donde se consume una API de PayPal para dar
+								acceso a los cursos de pago. 
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/paypal.png') }}" width="50" height="50" alt="Logo PayPal" title="PayPal">
+								<img src="{{ asset('assets/images/logos/livewire.png') }}" width="50" height="50" alt="Logo Livewire" title="Livewire">
 								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
 								<small class="text-muted"><strong>2021</strong></small>
 							</div>
