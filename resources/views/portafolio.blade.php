@@ -167,7 +167,7 @@
 							</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
-								<img src="{{ asset('assets/images/logos/paypal.png') }}" width="50" height="50" alt="Logo PayPal" title="PayPal">
+								<img src="{{ asset('assets/images/logos/paypal2.png') }}" width="50" height="50" alt="Logo PayPal" title="PayPal">
 								<img src="{{ asset('assets/images/logos/livewire.png') }}" width="50" height="50" alt="Logo Livewire" title="Livewire">
 								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
 								<small class="text-muted"><strong>2021</strong></small>
