@@ -68,6 +68,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- Pasarela de Pagos Laravel 8 --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\paymet.png') }}" alt="Post Creación de una Pasarela de Pagos con Laravel 8" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://github.com/petrix12/pasarela_pago/blob/main/apuntes.md" target="_blank">
+									<strong>
+										Creación de una pasarela de pagos en Laravel 8
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								En este proyecto se creó una pasarela de pagos en Laravel 8. La aplicación se implementó con Laravel Cashier, y
+								se utilizó como API de pagos a la plataforma de <a href="https://stripe.com/es-us" target="_blank">Stripe</a>.
+								Las vistas se desarrollaron principalmente con Tailwind CSS.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/tailwindcss.png') }}" width="50" height="50" alt="Logo Tailwind CSS" title="Tailwind CSS">
+								<img src="{{ asset('assets/images/logos/stripe.png') }}" width="50" height="50" alt="Logo Stripe" title="Stripe">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- API RESTful Laravel 8 --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -167,7 +194,7 @@
 							</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
-								<img src="{{ asset('assets/images/logos/paypal2.png') }}" width="50" height="50" alt="Logo PayPal" title="PayPal">
+								<img src="{{ asset('assets/images/logos/paypal.png') }}" width="50" height="50" alt="Logo PayPal" title="PayPal">
 								<img src="{{ asset('assets/images/logos/livewire.png') }}" width="50" height="50" alt="Logo Livewire" title="Livewire">
 								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
 								<small class="text-muted"><strong>2021</strong></small>
