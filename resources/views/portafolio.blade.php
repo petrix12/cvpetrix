@@ -74,7 +74,7 @@
 						<img src="{{ asset('assets\images\portafolio\paymet.png') }}" alt="Post Creación de una Pasarela de Pagos con Laravel 8" class="bd-placeholder-img card-img-top" width="100%" height="225">
 						<div class="card-body">
 							<div class="titulo-portafolio">
-								<a href="https://github.com/petrix12/pasarela_pago/blob/main/apuntes.md" target="_blank">
+								<a href="http://paymet.herokuapp.com/tutorial" target="_blank">
 									<strong>
 										Creación de una pasarela de pagos en Laravel 8
 									</strong>
