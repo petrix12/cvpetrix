@@ -397,7 +397,7 @@
 						<img src="{{ asset('assets\images\portafolio\pdvsa_cys.png') }}" alt="Post Automatización de Guardias STM" class="bd-placeholder-img card-img-top" width="100%" height="225">
 						<div class="card-body">
 							<div class="titulo-portafolio">
-								<a href="{{ route('en_construccion') }}" target="_blank">
+								<a href="https://www.youtube.com/watch?v=TUydu-_D_yE" target="_blank">
 									<strong>
 										Automatización reportes PDVSA Comercio y Suministro
 									</strong>
@@ -406,6 +406,7 @@
 							<p class="card-text texto-portafolio">
 								Automatización de reportes de la Gerencia de Administración y Finanzas de 
 								PDVSA Comercio y Suministo con Microsoft Excel y Visual Basic para Aplicaciones.
+								<a href="https://github.com/petrix12/automatizacion_vba_2017" target="_blank">Repositorio GitHub</a>
 							</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<img src="{{ asset('assets/images/logos/excel.png') }}" width="50" height="50" alt="Logo Microsoft Excel" title="Microsoft Excel">
