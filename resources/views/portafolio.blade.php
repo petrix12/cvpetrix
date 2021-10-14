@@ -231,6 +231,36 @@
 						</div>
 					</div>
 				</div>
+				{{-- App Genealogía Sefar --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\genealogia_sefar.png') }}" alt="Post App Genealogía Sefar" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://www.youtube.com/watch?v=2VsGfquR7KU" target="_blank">
+									<strong>
+										Creación de una aplicación de 
+										árbol genealógico en Laravel 7
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de una aplicación para consultar árboles genealógico. Aplicación desarrollada 
+								en Laravel 7 para la empresa Sefar Universal. Repositorios: 
+								<a href="https://github.com/petrix12/ftm_sefar" target="_blank">ftm_sefar</a> y 
+								<a href="https://github.com/petrix12/arbol_sefar" target="_blank">arbol_sefar</a>. 
+								Sitio web: <a href="https://genealogiasefar.com/" target="_blank">App Genealogía Sefar</a>
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/php.png') }}" width="50" height="50" alt="Logo PHP" title="PHP">
+								<img src="{{ asset('assets/images/logos/html5.png') }}" width="50" height="50" alt="Logo HTML" title="HTML">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<small class="text-muted"><strong>2020</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Blogger Soluciones++ --}}
 				<div class="col">
 					<div class="card shadow-sm">
