@@ -68,6 +68,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- Proyectos Vue.Js --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\vuejs2021.png') }}" alt="Post Creación de Proyectos en Vue.js" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="https://solucionespp-vuejs.netlify.app/" target="_blank">
+									<strong>
+										Creación de proyectos en Vue.js
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								En este apartado se pretende mostrar varios tipos de proyectos realizados en Vue.js,
+								con la intención de explorar el potencial de unos de los framework de FrontEnd
+								más demandados de la actualidad.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/vuejs.png') }}" width="50" height="50" alt="Logo Vue.js" title="Vue.js">
+								<img src="{{ asset('assets/images/logos/netlify.svg') }}" width="50" height="50" alt="Logo Netlify" title="Netlify">
+								<img src="{{ asset('assets/images/logos/net_core.png') }}" width="50" height="50" alt="Logo .NET Core" title=".NET Core">
+								<img src="{{ asset('assets/images/logos/git.png') }}" width="50" height="50" alt="Logo Git" title="Git">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Pasarela de Pagos Laravel 8 --}}
 				<div class="col">
 					<div class="card shadow-sm">
