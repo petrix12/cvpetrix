@@ -68,6 +68,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- Proyectos Laravel - MongoDB --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\laravel_mongodb.png') }}" alt="Post Proyecto Laravel - MongoDB" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="http://laravelmongo.herokuapp.com" target="_blank">
+									<strong>
+										Aplicación Laravel con base de datos MongoDB
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de una aplicación en Laravel que conecta con una base de datos 
+								MongoDB. La aplicación se publicó en Heroku mientras que la base de datos
+								se aloja en MongoDB Atlas.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/mongo.png') }}" width="50" height="50" alt="Logo MongoDB" title="MongoDB">
+								<img src="{{ asset('assets/images/logos/mongodb_atlas.png') }}" width="50" height="50" alt="Logo MongoDB Atlas" title="MongoDB Atlas">
+								<img src="{{ asset('assets/images/logos/heroku.png') }}" width="50" height="50" alt="Logo Heroku" title="Heroku">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Proyectos Vue.Js --}}
 				<div class="col">
 					<div class="card shadow-sm">
