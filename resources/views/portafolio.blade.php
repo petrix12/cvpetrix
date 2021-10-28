@@ -83,13 +83,40 @@
 							<p class="card-text texto-portafolio">
 								Creación de una aplicación en Laravel que conecta con una base de datos 
 								MongoDB. La aplicación se publicó en Heroku mientras que la base de datos
-								se aloja en MongoDB Atlas.
+								se alojó en Atlas MongoDB.
 							</p>
 							<div class="d-flex justify-content-between align-items-center">
 								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
 								<img src="{{ asset('assets/images/logos/mongo.png') }}" width="50" height="50" alt="Logo MongoDB" title="MongoDB">
-								<img src="{{ asset('assets/images/logos/mongodb_atlas.png') }}" width="50" height="50" alt="Logo MongoDB Atlas" title="MongoDB Atlas">
+								<img src="{{ asset('assets/images/logos/mongodb_atlas.png') }}" width="50" height="50" alt="Logo Atlas MongoDB " title="Atlas MongoDB">
 								<img src="{{ asset('assets/images/logos/heroku.png') }}" width="50" height="50" alt="Logo Heroku" title="Heroku">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{-- CRUD Laravel - Vue.js --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\laravel_vue20021.png') }}" alt="Post Proyecto Laravel - Vue.js" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="http://laravelvue-2021.herokuapp.com/" target="_blank">
+									<strong>
+										CRUD Laravel - Vue.js con Sweetalert2, Toastr y Axios
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de un CRUD en Laravel y Vue.js, que conecta con una API Rest
+								y utiliza las tecnologías de Sweetalert2, Toastr para la creación de 
+								formularios y mensajes, y Axios para consumir la API.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/vuejs.png') }}" width="50" height="50" alt="Logo Vue.js" title="Vue.js">
+								<img src="{{ asset('assets/images/logos/axios.png') }}" width="50" height="50" alt="Logo Axios " title="Axios">
+								<img src="{{ asset('assets/images/logos/sweetalert2.png') }}" width="50" height="50" alt="Logo Sweetalert2" title="Sweetalert2">
 								<small class="text-muted"><strong>2021</strong></small>
 							</div>
 						</div>
@@ -285,6 +312,33 @@
 						</div>
 					</div>
 				</div>
+				{{-- App Sistemas de roles y permisos en Laravel --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\roles_permisos2021.png') }}" alt="Post App sistema de roles y permisos" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="http://laravel-permission-2021.herokuapp.com" target="_blank">
+									<strong>
+										Creación de un sistema base de roles y permisos
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Creación de una aplicación con un sistema de roles y permisos que sirve de 
+								base para el desarrollo de otras aplicaciones que requieran de esta modalidad.
+								Esta aplicación se desarrollo principalmente con Larevel 8, Jetstream y Livewire.
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/laravel.png') }}" width="50" height="50" alt="Logo Laravel" title="Laravel">
+								<img src="{{ asset('assets/images/logos/jetstream.png') }}" width="50" height="50" alt="Logo Laravel Jetstream" title="Laravel Jetstream">
+								<img src="{{ asset('assets/images/logos/livewire.png') }}" width="50" height="50" alt="Logo Livewire" title="Livewire">
+								<img src="{{ asset('assets/images/logos/github.png') }}" width="50" height="50" alt="Logo GitHub" title="GitHub">
+								<small class="text-muted"><strong>2021</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- App Genealogía Sefar --}}
 				<div class="col">
 					<div class="card shadow-sm">
@@ -318,7 +372,7 @@
 				{{-- Blogger Soluciones++ --}}
 				<div class="col">
 					<div class="card shadow-sm">
-						<img src="{{ asset('assets\images\portafolio\soluciones++.png') }}" alt="Post Blogger Soluciones++" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<img src="{{ asset('assets\images\portafolio\solucionespp.png') }}" alt="Post Blogger Soluciones++" class="bd-placeholder-img card-img-top" width="100%" height="225">
 						<div class="card-body">
 							<div class="titulo-portafolio">
 								<a href="https://solplusplus.blogspot.com" target="_blank">

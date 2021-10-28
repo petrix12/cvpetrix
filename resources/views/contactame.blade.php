@@ -84,7 +84,7 @@
                                     <span class="fa fa-file-pdf-o" aria-hidden="true"></span>
                                 </div>
                                 <div class="cont-add-rgt">
-                                    <a href="{{ asset('descargas/cv/CVPedroBazo20190426.pdf')}}" target="_blank">
+                                    <a href="{{ asset('descargas/cv/CVPedroBazo.pdf')}}" target="_blank">
                                         <p class="contact-text-sub">Descargar mi CV</p>
                                     </a>
                                 </div>
