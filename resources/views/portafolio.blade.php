@@ -448,6 +448,31 @@
 						</div>
 					</div>
 				</div>
+				{{-- Aplicación Árbol Genealógico en Excel --}}
+				<div class="col">
+					<div class="card shadow-sm">
+						<img src="{{ asset('assets\images\portafolio\app_excel.png') }}" alt="Post Aplicación Árbol Genealógico en Excel" class="bd-placeholder-img card-img-top" width="100%" height="225">
+						<div class="card-body">
+							<div class="titulo-portafolio">
+								<a href="{{ asset('descargas\arbol_excel\arbol.xlsm') }}" target="_blank">
+									<strong>
+										Aplicación Árbol Genealógico en Excel
+									</strong>
+								</a>
+							</div>
+							<p class="card-text texto-portafolio">
+								Aplicación desarrollada en Microsoft Excel y Visual Basic para Aplicaciones,
+								para cargar un árbol genealógico. 
+								<a href="https://github.com/petrix12/arbol_excel2019" target="_blank">Repositorio GitHub</a>
+							</p>
+							<div class="d-flex justify-content-between align-items-center">
+								<img src="{{ asset('assets/images/logos/excel.png') }}" width="50" height="50" alt="Logo Microsoft Excel" title="Microsoft Excel">
+								<img src="{{ asset('assets/images/logos/vba.png') }}" width="50" height="50" alt="Logo VBA" title="VBA">
+								<small class="text-muted"><strong>2019</strong></small>
+							</div>
+						</div>
+					</div>
+				</div>
 				{{-- Blogger Herramientas y Soluciones Office --}}
 				<div class="col">
 					<div class="card shadow-sm">
